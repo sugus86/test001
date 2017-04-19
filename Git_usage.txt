@@ -18,6 +18,8 @@ git commit -c 'test...'
 
 
 
+git status
+
 #
 git remote add origin https://git@github.com/sugus86/python-example-001.git
 
