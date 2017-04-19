@@ -1,0 +1,38 @@
+
+#简单使用Git和Github来管理自己的代码和读书笔记
+#http://www.open-open.com/lib/view/open1423810370232.html
+
+
+
+
+git show
+
+
+#初始化一个目录为git仓库
+
+git init
+
+git add .
+
+git commit -c 'test...'
+
+
+
+#
+git remote add origin https://git@github.com/sugus86/python-example-001.git
+
+git pull git@github.com:sugus86/python-example-001.git
+
+
+
+
+…or create a new repository on the command line
+echo # MyFirstGitProject >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/waitForWind/MyFirstGitProject.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/waitForWind/MyFirstGitProject.git
+git push -u origin master
